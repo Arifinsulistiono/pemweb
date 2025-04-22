@@ -33,5 +33,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             PageConfigSeeder::class,
        ]);
+
+       $this->call([
+            LogoSeeder::class,
+       ]);
     }
 }
