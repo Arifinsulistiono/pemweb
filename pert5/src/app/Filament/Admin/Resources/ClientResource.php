@@ -27,7 +27,7 @@ class ClientResource extends Resource
                     ->required()
                     ->maxLength(255),
                 Forms\Components\TextInput::make('api_token')
-                    ->disable()
+                    ->disabled()
                     ->label('Token')
                     ->visibleOn('edit'),
             ]);

@@ -4,7 +4,7 @@ namespace App\Filament\Admin\Resources\ClientResource\Pages;
 
 use App\Filament\Admin\Resources\ClientResource;
 use Filament\Actions;
-use Filament\Action\Action;
+use Filament\Actions\Action;
 use Filament\Notification\Notification;
 use Filament\Resources\Pages\EditRecord;
 use Illuminate\Support\Str;
