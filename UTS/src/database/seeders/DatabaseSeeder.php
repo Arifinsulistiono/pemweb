@@ -30,6 +30,14 @@ class DatabaseSeeder extends Seeder
 
         $user->assignRole('super_admin');
 
+        $user = \App\Models\User::factory()->create([
+            'name' => 'guru',
+            'email' => 'guru@sekolah.com',
+            'password' => bcrypt('guru123'),
+        ]);
+
+        $user->assignRole('guru');
+
         $this->call([
             GuruSeeder::class,
             RoleSeeder::class,

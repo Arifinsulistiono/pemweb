@@ -11,7 +11,7 @@
       <div class="col-lg-6 mb-5 mb-lg-0">
         <div class="block text-center text-lg-start pe-0 pe-xl-5">
           <h1 class="text-capitalize mb-4">{{ $config->title ?? ''}}</h1>
-          <p class="mb-4">{{ $config->description ?? ''}}</p> <a href="{{ route('guru.index') }}" class="btn btn-success">See More →</a>
+          <p class="mb-4">{{ $config->description ?? ''}}</p> <a href="{{ route('guru.index') }}" class="btn btn-success">Kumpulan Guru →</a>
         </div>
       </div>
       <div class="col-lg-6">
